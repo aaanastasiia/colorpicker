@@ -1,0 +1,55 @@
+.container {
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.fieldset {
+  margin-bottom: 20px;
+}
+
+.fieldset__buttons {
+  display: flex;
+}
+
+#button__background {
+  margin-left: 10px;
+}
+
+.color__picker {
+  display: flex;
+  align-items: center;
+}
+
+#text {
+  color: red;
+}
+
+.button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.active-color,
+.active-background {
+  background-color: #356eff !important;
+  color: #fff !important;
+}
+
+.color__text {
+  border: 1px solid #c4c4c4;
+  width: 200px;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+
+#color {
+  width: 300px;
+  margin: 15px;
+  background: #ef2929; 
+}
+
+#color .ui-slider-handle {
+  border-color: #ef2929; 
+  outline: none;
+}
